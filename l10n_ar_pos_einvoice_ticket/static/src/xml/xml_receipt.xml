@@ -16,7 +16,7 @@
                 <br/>
             </t>
             <!-- Company Name -->
-            de <t t-if='receipt.company.name'>
+            <t t-if='receipt.company.name'>
                 <h4><t t-esc='receipt.company.name' /></h4><br/>
             </t>
             <t t-if='receipt.company.report_header'>
