@@ -18,6 +18,8 @@
             <!-- Company Name -->
             de <t t-if='receipt.company.name'>
                 <h4><t t-esc='receipt.company.name' /></h4><br/>
+            <t t-if='company.report_header'>
+                <h4><t t-esc='company.report_header' /></h4><br/>
             </t>
             <div class="afip-info" font="b">
                 <div>
